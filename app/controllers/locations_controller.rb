@@ -8,7 +8,7 @@ class LocationsController < ApplicationController
     longitude = params[:longitude]
     latitude = params[:latitude]
     @location = Location.new
-    exist_device = Device.where(name=name).first
+    exist_device = Device.find_by_name(name).first
     if !exist_device
       device = Device.new
       device.name = name
@@ -47,16 +47,11 @@ class LocationsController < ApplicationController
   # POST /locations
   # POST /locations.json
   def create
-    @location = Location.new(location_params)
-
+    name = params[:name]
+    device = Device.find_by_name(name)
+    @location = device.locations.last
     respond_to do |format|
-      if @location.save
-        format.html { redirect_to @location, notice: 'Location was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @location }
-      else
-        format.html { render action: 'new' }
-        format.json { render json: @location.errors, status: :unprocessable_entity }
-      end
+      format.js { render @location }
     end
   end
 

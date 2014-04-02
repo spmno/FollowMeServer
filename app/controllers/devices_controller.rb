@@ -4,7 +4,11 @@ class DevicesController < ApplicationController
   # GET /devices
   # GET /devices.json
   def index
-    @devices = Device.all
+    name = params[:name]
+    @find_device = Device.find_by_name(name)
+    if @find_device
+
+    end
   end
 
   # GET /devices/1
