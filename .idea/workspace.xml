@@ -12,10 +12,10 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/FollowMeServer@Rails_console__FollowMeServer.coverage" NAME="Rails console: FollowMeServer Coverage Results" MODIFIED="1396448615773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FollowMeServer" />
+    <SUITE FILE_PATH="coverage/FollowMeServer@Rails_console__FollowMeServer.coverage" NAME="Rails console: FollowMeServer Coverage Results" MODIFIED="1396488650681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FollowMeServer" />
     <SUITE FILE_PATH="coverage/FollowMeServer@db_migrate__FollowMeServer.coverage" NAME="db:migrate: FollowMeServer Coverage Results" MODIFIED="1396348470059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FollowMeServer" />
     <SUITE FILE_PATH="coverage/FollowMeServer@routes__FollowMeServer.coverage" NAME="routes: FollowMeServer Coverage Results" MODIFIED="1396451148588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FollowMeServer" />
-    <SUITE FILE_PATH="coverage/FollowMeServer@Development__FollowMeServer.coverage" NAME="Development: FollowMeServer Coverage Results" MODIFIED="1396448628863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FollowMeServer" />
+    <SUITE FILE_PATH="coverage/FollowMeServer@Development__FollowMeServer.coverage" NAME="Development: FollowMeServer Coverage Results" MODIFIED="1396487413552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FollowMeServer" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -29,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="location.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/location.rb">
+      <file leaf-file-name="locations.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/locations.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
               <folding />
             </state>
           </provider>
@@ -41,16 +41,16 @@
       <file leaf-file-name="locations_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/locations_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="35" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.24111675" vertical-offset="912" max-vertical-offset="1862">
+            <state line="6" column="30" selection-start="207" selection-end="207" vertical-scroll-proportion="0.14467005" vertical-offset="57" max-vertical-offset="1881">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.json.jbuilder" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devices/index.json.jbuilder">
+      <file leaf-file-name="location.json.jbuilder" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/devices/location.json.jbuilder">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
               <folding />
             </state>
           </provider>
@@ -77,7 +77,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="133">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="133">
               <folding />
             </state>
           </provider>
@@ -86,7 +86,7 @@
       <file leaf-file-name="devices_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="44" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1596">
+            <state line="7" column="44" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="1202" max-vertical-offset="1596">
               <folding />
             </state>
           </provider>
@@ -95,8 +95,10 @@
       <file leaf-file-name="devices.js.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/devices.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="32" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="551">
-              <folding />
+            <state line="29" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="665">
+              <folding>
+                <marker date="1396487279788" expanded="true" signature="364:882" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +106,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="6" selection-start="490" selection-end="490" vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="418">
+            <state line="10" column="6" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="418">
               <folding />
             </state>
           </provider>
@@ -113,7 +115,7 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="27" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1254">
+            <state line="5" column="27" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="1254">
               <folding />
             </state>
           </provider>
@@ -187,6 +189,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -410,7 +413,6 @@
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,7 +423,26 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Rake.routes: FollowMeServer">
+  <component name="RunManager" selected="IRB console.Rails console: FollowMeServer">
+    <configuration default="false" name="Rails console: FollowMeServer" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
+      <module name="FollowMeServer" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console" />
+      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="false" name="db:migrate: FollowMeServer" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="FollowMeServer" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -442,25 +463,6 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Rails console: FollowMeServer" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
-      <module name="FollowMeServer" />
-      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console" />
-      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -616,18 +618,18 @@
       <method />
     </configuration>
     <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Rails.Production: FollowMeServer" />
-      <item index="1" class="java.lang.String" itemvalue="Rails.Development: FollowMeServer" />
-      <item index="2" class="java.lang.String" itemvalue="Rake.test: FollowMeServer" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.spec: FollowMeServer" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate: FollowMeServer" />
-      <item index="5" class="java.lang.String" itemvalue="IRB console.Rails console: FollowMeServer" />
+      <item index="0" class="java.lang.String" itemvalue="IRB console.Rails console: FollowMeServer" />
+      <item index="1" class="java.lang.String" itemvalue="Rails.Production: FollowMeServer" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Development: FollowMeServer" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.test: FollowMeServer" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.spec: FollowMeServer" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate: FollowMeServer" />
       <item index="6" class="java.lang.String" itemvalue="Rake.routes: FollowMeServer" />
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Rake.routes: FollowMeServer" />
-        <item index="1" class="java.lang.String" itemvalue="IRB console.Rails console: FollowMeServer" />
+        <item index="0" class="java.lang.String" itemvalue="IRB console.Rails console: FollowMeServer" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.routes: FollowMeServer" />
         <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate: FollowMeServer" />
       </list>
     </recent_temporary>
@@ -659,7 +661,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -671,16 +673,16 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32776934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -700,11 +702,81 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/app/models/location.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="589">
+        <state line="3" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="171">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/locations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="35" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0" vertical-offset="912" max-vertical-offset="1862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devices/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="247">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/device.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="21" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="171">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devices/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="133">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/devices_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="44" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="1596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/devices.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="32" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="551">
+          <folding>
+            <marker date="1396487279788" expanded="true" signature="364:882" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="6" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="27" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="1254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="589" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -772,9 +844,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="589">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="589" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -847,9 +917,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="589">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="589" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/rails">
@@ -927,7 +995,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="490" selection-end="490" vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="418">
+        <state line="10" column="6" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="418">
           <folding />
         </state>
       </provider>
@@ -939,17 +1007,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/devices.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="32" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="551">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devices/index.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="394">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devices/location.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/devices.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="665">
+          <folding>
+            <marker date="1396487279788" expanded="true" signature="364:882" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -960,9 +1037,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/locations.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/locations_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="35" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.24111675" vertical-offset="912" max-vertical-offset="1862">
+        <state line="6" column="30" selection-start="207" selection-end="207" vertical-scroll-proportion="0.14467005" vertical-offset="57" max-vertical-offset="1881">
           <folding />
         </state>
       </provider>

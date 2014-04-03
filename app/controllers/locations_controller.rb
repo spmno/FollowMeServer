@@ -4,28 +4,29 @@ class LocationsController < ApplicationController
   # GET /locations
   # GET /locations.json
   def index
-    name = params[:name]
+    name = params[:name][3..-1]
     longitude = params[:longitude]
     latitude = params[:latitude]
     @location = Location.new
-    exist_device = Device.find_by_name(name).first
+    exist_device = Device.find_by_name(name)
     if !exist_device
       device = Device.new
       device.name = name
       if device.save
+        print "save device"
         @location.device_id = device.id
         @location.longitude = longitude
         @location.latitude = latitude
-        if !@location.save
-
+        if @location.save
+          print "save location"
         end
       end
     else
       @location.device_id = exist_device.id
       @location.longitude = longitude
       @location.latitude = latitude
-      if !@location.save
-
+      if @location.save
+        print "save location"
       end
     end
   end
@@ -51,7 +52,7 @@ class LocationsController < ApplicationController
     device = Device.find_by_name(name)
     @location = device.locations.last
     respond_to do |format|
-      format.js { render @location }
+      format.json { render json: @location }
     end
   end
 
